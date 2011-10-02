@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+	Easy Peasy Image Gallery (EPIG) - Configuration file
+
+	Copyright(c) 2005 Apostolos (Soumis) Dountsis
+	
+	Modify the values (the text between the tags <>) to customise EPIG
+	
+-->
+<epig>
+	<!-- The name of the album -->
+	<title>Album Name</title>
+	
+	<!-- Your name -->
+	<author>Apostolos Dountsis</author>
+	
+	<!-- Your email address -->
+	<email></email>
+	
+	<!-- template file -->
+	<template>template.html</template>
+	
+	<!-- Album description -->
+	<description>An EPIG 2 album</description>
+	
+	<!-- 	The width of the thumbnails
+		Note that, if the actual size of the image is smaller
+		than its actual size then the actual value is used for thumbnail -->
+	<width>150</width>
+	
+	<!-- 	The height of the thumbnails
+		Note that, if the actual size of the image is smaller
+		than its actual size then the actual value is used for thumbnail -->
+	<height>100</height>
+	
+	<!-- 	The quality of each thumbnail (applies only to JPEG files).
+		It ranges from 0 (worst quality, smaller file) to 100 (best quality, biggest file) -->
+	<quality>75</quality>
+	
+	<!-- The number of thumbnail rows in each page -->
+	<rows>3</rows>
+	
+	<!-- The number of thumbnail columns in each page -->
+	<columns>3</columns>
+	
+	<!-- Width of the Preview image if preview is used (styles 1 & 2) -->
+	<preview_width>640</preview_width>
+
+	<!-- Height of the Preview image if preview is used (styles 1 & 2) -->	
+	<preview_height>480</preview_height>
+
+	<!-- Quality of the Preview image if preview is used (styles 1 & 2)
+		Note: applies only to JPEG files -->	
+	<preview_quality>90</preview_quality>
+	
+	<!-- Presentation Styles: 1 -> Classic Style (as in 1.0.x versions)
+				  2 -> Preview Style
+				  3 -> Kes Style -->
+	<style>1</style>
+
+	<!-- Sort your gallery:
+				DATE to sort by file date
+				NAME to sort by file name -->
+	<sort_type>DATE</sort_type >
+
+	<!-- Sorting order:
+				ASC for ascending sorting order
+				DESC for descending sorting order -->
+	<sort_order>ASC</sort_order>
+	
+	<!-- Display filename below thumbnail as caption:
+			0 for Not displaying the filename
+			1 for displaying the filename -->
+	<filename>0</filename>
+	
+	<!-- Display captions below the thumbnails. 
+		Create a caption file using the filename of the image that it
+		is associated with and the extension txt. For example
+		an image with filename img_00.jpg would have as caption the file
+		img_00.txt
+	-->
+	<caption>0</caption>
+</epig>
